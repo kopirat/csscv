@@ -58,26 +58,28 @@ $tab-size:  4;
 /**
  * Colour settings.
  */
-$color--blue--dark:     #002935;
-$color--blue--light:    #0083ce;
+
+$color--beige:          #faefce;
+$color--blue:           #268bd2;
 $color--grey--dark:     #7f9597;
 $color--grey--light:    #4f6c73;
-$color--mustard:        #b58a0a;
-$color--turquoise:      #00a19b;
+$color--purple:         #6c71c4;
+$color--mustard:        #b58900;
+$color--turquoise:      #2aa198;
 
 
 /**
  * Reassign colour variables to better names.
  */
-$color--background:     $color--blue--dark;
+$color--background:     $color--beige;
 $color--text:           $color--grey--light;
 $color--comment:        $color--grey--dark;
-$color--selector:       $color--blue--light;
-$color--braces:         $color--blue--light;
-$color--property:       $color--mustard;
-$color--value:          $color--mustard;
+$color--selector:       $color--turquoise;
+$color--braces:         $color--turquoise;
+$color--property:       $color--blue;
+$color--value:          $color--purple;
 $color--colons:         $color--grey--dark;
-$color--string:         $color--turquoise;
+$color--string:         $color--mustard;
 $color--number:         $color--turquoise;
 
 
@@ -179,8 +181,8 @@ a {
  * all our selectors will be classes.
  *
  * 1. Lowercase our class names.
- * 3. Prepend a period.
- * 4. Append an opening brace.
+ * 2. Prepend a period.
+ * 3. Append an opening brace.
  */
 .selector {
     color: $color--selector;
